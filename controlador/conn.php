@@ -1,8 +1,8 @@
 <?php
 
-	$dsn = 'mysql:dbname=watchzone;host=localhost;';
+	$dsn = 'mysql:dbname=tienda;host=localhost;';
 	$user = 'root';
-	$password = 'JhovanRdz_10K';
+	$password = 'Daniel_12';
 
 	try{
 		$pdo = new PDO($dsn, $user, $password);
