@@ -154,7 +154,7 @@
                   <div class="form-group row">
                     <label for="clave" class="col-sm-2 col-form-label">Clave</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="clave" name="clave" placeholder="Clave de producto">
+                      <input type="number" class="form-control" id="clave" name="clave" placeholder="Clave de producto">
                     </div>
                   </div>
                   <div class="form-group row">
