@@ -30,7 +30,7 @@ if($results==NULL){
     // Se recorre el resultado con todos los registros
     foreach($results as $data => $column){
         echo "<tr>";
-        echo "<td>".$column['codigo']."</td>";
+        echo "<td>".$column['id']."</td>";
         echo "<td>".$column['nombre']."</td>";
         echo "</tr>";
     }
