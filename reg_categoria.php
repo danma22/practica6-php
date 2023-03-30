@@ -143,12 +143,6 @@
               <form class="form-horizontal needs-validation" action="categoria.php" method="post" id="form3" novalidate>
                 <div class="card-body">
                   <div class="form-group row">
-                    <label for="clave" class="col-sm-2 col-form-label">Clave de categoria</label>
-                    <div class="col-sm-10">
-                      <input required type="number" class="form-control" id="clave" name="claveCat" placeholder="Clave de producto">
-                    </div>
-                  </div>
-                  <div class="form-group row">
                     <label for="nameP" class="col-sm-2 col-form-label">Nombre de la categoria</label>
                     <div class="col-sm-10">
                       <input required type="text" class="form-control" id="nameP" name="nameCat" placeholder="Nombre del producto">
