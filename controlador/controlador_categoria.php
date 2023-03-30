@@ -5,9 +5,8 @@ include("conn.php");
 // Se verifica si he recibido datos a través de post
 if(!empty($_POST)){
     global $pdo;
-    $codigo=$_REQUEST['claveCat'];
     $nombre=$_REQUEST['nameCat'];
-	$sql = "INSERT INTO categorias(codigo,nombre) VALUES('$codigo','$nombre')";
+	$sql = "INSERT INTO categorias(nombre) VALUES('$nombre')";
 	$statement = $pdo->prepare($sql);
 	$statement->execute();
 
@@ -30,7 +29,6 @@ if($results==NULL){
     // Se recorre el resultado con todos los registros
     foreach($results as $data => $column){
         echo "<tr>";
-        echo "<td>".$column['id']."</td>";
         echo "<td>".$column['nombre']."</td>";
         echo "</tr>";
     }
