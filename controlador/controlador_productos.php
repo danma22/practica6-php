@@ -5,13 +5,12 @@ include("conn.php");
 // Se verifica si he recibido datos a través de post
 if(!empty($_POST)){
     global $pdo;
-    $codigo=$_REQUEST['clave'];
     $nombre=$_REQUEST['namePro'];
     $descripcion=$_REQUEST['descrip'];
     $id_categoria=$_REQUEST['categoria'];
     $precioVenta=$_REQUEST['precioV'];
     $precioCompra=$_REQUEST['precioC'];
-	$sql = "INSERT INTO productos(codigo,nombre,descripcion,precio_venta,precio_compra,id_categoria) VALUES('$codigo','$nombre','$descripcion','$precioVenta','$precioCompra','$id_categoria')";
+	$sql = "INSERT INTO productos(nombre,descripcion,precio_venta,precio_compra,id_categoria) VALUES('$nombre','$descripcion','$precioVenta','$precioCompra','$id_categoria')";
 	$statement = $pdo->prepare($sql);
 	$statement->execute();
 
