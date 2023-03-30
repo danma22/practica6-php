@@ -142,7 +142,6 @@
                 <table id="example2" class="table table-bordered table-hover">
                   <thead>
                   <tr>
-                    <th>Clave</th>
                     <th>Nombre</th>
                   </tr>
                   </thead>
@@ -156,7 +155,6 @@
                   </tbody>
                   <tfoot>
                     <tr>
-                    <th>Clave</th>
                     <th>Nombre</th>
                     </tr>
                   </tfoot>
