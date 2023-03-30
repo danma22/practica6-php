@@ -152,6 +152,12 @@
               <form class="form-horizontal" action="index.php" method="post" id="form3">
                 <div class="card-body">
                   <div class="form-group row">
+                    <label for="claveP" class="col-sm-2 col-form-label">Clave del producto</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="claveP" name="clavePro" placeholder="Clave del producto">
+                    </div>
+                  </div>
+                  <div class="form-group row">
                     <label for="nameP" class="col-sm-2 col-form-label">Nombre del producto</label>
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="nameP" name="namePro" placeholder="Nombre del producto">
